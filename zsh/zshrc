@@ -1,0 +1,19 @@
+source ~/dotfiles/zsh/settings.zsh
+
+[ -f ~/dotfiles/zsh/.fzf.zsh ] && source ~/dotfiles/zsh/.fzf.zsh
+
+source ~/dotfiles/zsh/functions.zsh
+
+source ~/dotfiles/zsh/plugins/z/z.sh
+source ~/dotfiles/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+source ~/dotfiles/zsh/aliases.zsh
+source ~/dotfiles/zsh/env.zsh
+
+
+# theme.zsh needs git.zsh
+source ~/dotfiles/zsh/git.zsh
+source ~/dotfiles/zsh/theme.zsh
+
+
