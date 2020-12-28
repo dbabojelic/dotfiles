@@ -11,8 +11,8 @@ source ~/dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source ~/dotfiles/zsh/aliases.zsh
 source ~/dotfiles/zsh/env.zsh
 
+[ -f ~/.zshrc_local ] && source ~/.zshrc_local
 
-# theme.zsh needs git.zsh
 source ~/dotfiles/zsh/git.zsh
 source ~/dotfiles/zsh/theme.zsh
 
