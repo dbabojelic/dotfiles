@@ -1,0 +1,10 @@
+[core]
+	excludesfile = ~/.gitignore
+	askpass = git-gui--askpass
+[pull]
+	rebase = false
+[push]
+	default = current
+[user]
+	email = dario.bab27@gmail.com
+	name = dbabojelic

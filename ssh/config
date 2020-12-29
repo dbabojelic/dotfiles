@@ -1,0 +1,4 @@
+ForwardAgent yes
+HashKnownHosts no
+Host *
+  UseKeychain yes
