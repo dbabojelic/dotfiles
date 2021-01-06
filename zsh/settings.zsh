@@ -13,3 +13,6 @@ zmodload zsh/complist
 
 # Use incremental search
 bindkey "^R" history-incremental-search-backward
+
+# Fix backspace in insert mode
+bindkey "^?" backward-delete-char
