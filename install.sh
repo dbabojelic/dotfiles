@@ -1,9 +1,11 @@
 #!/bin/bash
 
 function help_and_exit {
-    echo One argument required and should be one of the following:
-    echo '    all, zsh, vim, tmux, git;'
-    echo depending on what you want to install.
+    cat << EOF
+One argument required and should be one of the following:
+    all, zsh, vim, tmux, git;
+depending on what you want to install.
+EOF
     exit 1
 }
 
