@@ -1,4 +1,16 @@
 #!/bin/bash
+
+function help_and_exit {
+    echo One argument required and should be one of the following:
+    echo '    all, zsh, vim, tmux, git;'
+    echo depending on what you want to install.
+    exit 1
+}
+
+if [ $# -ne 1 ]; then
+    help_and_exit
+fi
+
 git submodule update --init --recursive
 
 function zsh {
@@ -46,6 +58,9 @@ do
             ;;
         git)
             git
+            ;;
+        *)
+            help_and_exit
             ;;
     esac
 done
