@@ -1,0 +1,115 @@
+{
+    "editor.fontWeight": "bold",
+    "workbench.colorTheme": "GitHub Dark",
+    "cmake.configureOnOpen": true,
+    "editor.lineNumbers": "relative",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#135564",
+        "editor.selectionHighlightBackground": "#135564"
+    },
+    // vim specific
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+    "vim.hlsearch": true,
+    "vim.leader": ",",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-o>": true,
+        "<C-i>": true
+    },
+    "vim.searchHighlightColor": "rgba(255, 165, 0, 0.5)",
+    "vim.highlightedyank.color": "rgba(255, 165, 0, 0.5)",
+    "vim.highlightedyank.enable": true,
+    // bookmarks (like vim marks but better)
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "m"
+            ],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "bookmarks.listFromAllFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "bookmarks.clear"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "C",
+            ],
+            "commands": [
+                "bookmarks.clearFromAllFiles"
+            ]
+        }
+    ],
+    "files.insertFinalNewline": true,
+    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
+    "python.linting.pylintCategorySeverity.refactor": "Warning",
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.linting.pylintArgs": [
+        "--rcfile=${workspaceFolder}/.pylintrc"
+    ],
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/web"
+    ],
+    "editor.minimap.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "stories.username": "Belinda_harlequin",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.linting.flake8Enabled": true,
+    "editor.rulers": [
+        80
+    ],
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.wrapTabs": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.tree.indent": 6,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+    // gd - go to definition 
+    // gh - go hover where cursor is 
+}
