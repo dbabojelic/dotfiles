@@ -8,6 +8,7 @@ setopt extendedhistory
 
 # Use vim keybindings
 bindkey -v
+# bindkey -e
 
 # Initialize completion
 autoload -Uz compinit && compinit -i
